@@ -35,5 +35,6 @@ module.exports = {
   mode: 'development',
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
+    hot: true,
   },
 };
